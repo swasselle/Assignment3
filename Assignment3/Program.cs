@@ -4,6 +4,11 @@ namespace Assignment3
 {
     class Program
     {
+        static void HelloFromDeb()
+        {
+            Console.WriteLine("Hello from Deb!");
+        }
+
         static void HelloFromAlex()
         {
             Console.WriteLine("Hello from Alex!");
@@ -12,6 +17,7 @@ namespace Assignment3
         {
             Console.WriteLine("Hello World!");
             HelloFromAlex();
+            HelloFromDeb();
         }
     }
 }
